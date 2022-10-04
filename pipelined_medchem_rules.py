@@ -6,6 +6,9 @@ and with 4.87M molecules it takes about 9 minutes.
 The same command, running outside python, takes about
 the same time, so there is little discernable penalty
 for rnning inside python using subprocess.
+
+No error checking, in a real app, a failure to launch
+error should be handled.
 """
 
 import logging, subprocess, sys
